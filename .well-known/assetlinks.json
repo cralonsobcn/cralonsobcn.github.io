@@ -1,13 +1,13 @@
 {
-    "relation" : [
-    "delegate_permission/common.handle_all_urls",
-    "delegate_permission/common.get_login_creds"
+    "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
     ],
-    "target" : {
-    "namespace" : "android_app",
-    "package_name" : "com.example.android",
-    "sha256_cert_fingerprints" : [
-        SHA_HEX_VALUE
-    ]
+    "target": {
+        "namespace": "com.app.eurekagcpp",
+        "package_name": "com.app.eurekagcp",
+        "sha256_cert_fingerprints": [
+            "51:C5:F1:55:FB:12:3C:3F:D8:4D:53:DA:AF:A7:40:A7:71:E8:41:8B:CE:83:8D:F8:E1:31:4F:F8:F1:5B:80:E9"
+        ]
     }
 }
