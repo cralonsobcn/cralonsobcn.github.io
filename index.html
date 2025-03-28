@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Alonso</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0066CC',
+                        secondary: '#4A90E2'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .terminal-text::after {
+            content: '|';
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .parallax-section {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body class="bg-[#121212] text-[#E0E0E0] min-h-screen">
+    <nav class="fixed top-0 w-full bg-[#000000]/80 backdrop-blur-md z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-primary">CA</div>
+                <div class="flex space-x-8">
+                    <a href="#about" class="hover:text-primary transition-colors cursor-pointer">About</a>
+                    <a href="#technologies" class="hover:text-primary transition-colors cursor-pointer">Technologies</a>
+                    <a href="#projects" class="hover:text-primary transition-colors cursor-pointer">Projects</a>
+                    <a href="#certifications"
+                        class="hover:text-primary transition-colors cursor-pointer">Certifications</a>
+                    <a href="#contact" class="hover:text-primary transition-colors cursor-pointer">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="pt-32 pb-20 px-6 parallax-section"
+        style="background-image: url('https://public.readdy.ai/ai/img_res/912ca8561987d0e68d330963464d3085.jpg'); background-color: rgba(0, 0, 0, 0.85); background-blend-mode: overlay;">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-5xl font-bold mb-4">Cristian Alonso</h1>
+            <h2 class="text-2xl text-primary mb-6">Junior Software Engineer | Junior Cloud Engineer</h2>
+            <div class="terminal-text text-lg mb-8" id="terminal"></div>
+            <p class="text-xl text-gray-400 max-w-2xl">I'm passionate about Cloud infrastructure, automation, security, best practices and helping people achieve their goals.</p>
+            <p class="text-xl text-gray-400 max-w-2xl">Problem Solver with Communication Skills, Adaptable with Strong organizational skills that can easiliy prioritize high volumes of work by taking in consideration the Severity of incoming issues and the internal SLA.</p>
+        </div>
+    </header>
+    <section id="about" class="py-20 px-6 bg-[#1a1a1a] parallax-section"
+        style="background-image: url(''); background-color: rgba(0, 0, 0, 0.92); background-blend-mode: overlay;">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold mb-12">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <p class="text-gray-300 mb-6">Experienced Google Cloud Escalation Manager with a strong background in managing technical escalations, I'm transitioning into a hands-on technical role by specializing in cloud infrastructure and networking architecture,
+                        containerization and orchestration.</p>
+                    <p class="text-gray-300">Every new tool, discipline or technology is put to the test in my virtualized environments or personal K8s homelab</p>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-[#242424] p-6 rounded">
+                        <i class="ri-amazon-line text-4xl text-primary mb-4"></i>
+                        <h3 class="font-semibold mb-2">AWS</h3>
+                        <p class="text-sm text-gray-400">EC2, EKS, ECS, S3</p>
+                    </div>
+                    <div class="bg-[#242424] p-6 rounded">
+                        <i class="ri-google-line text-4xl text-primary mb-4"></i>
+                        <h3 class="font-semibold mb-2">GCP</h3>
+                        <p class="text-sm text-gray-400">GKE, GCE, GCS, Networking</p>
+                    </div>
+                    <div class="bg-[#242424] p-6 rounded">
+                        <i class="ri-cpu-line text-4xl text-primary mb-4"></i>
+                        <h3 class="font-semibold mb-2">Kubernetes</h3>
+                        <p class="text-sm text-gray-400">Cluster Administration, kubeadm, RBAC, Volumes, Workloads, Networking</p>
+                    </div>
+                    <div class="bg-[#242424] p-6 rounded">
+                        <i class="ri-git-branch-line text-4xl text-primary mb-4"></i>
+                        <h3 class="font-semibold mb-2">DevOps</h3>
+                        <p class="text-sm text-gray-400">Terraform, Automation, Monitoring</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="technologies" class="py-20 px-6 parallax-section"
+        style="background-image: url(''); background-color: rgba(0, 0, 0, 0.92); background-blend-mode: overlay;">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold mb-12">Technologies & Skills</h2>
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold mb-6 text-primary">Languages and Frameworks</h3>
+                <div class="flex flex-wrap gap-4">
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-python-line text-xl mr-2 text-primary"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-java-line text-xl mr-2 text-primary"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-terminal-line text-xl mr-2 text-primary"></i>
+                        <span>Bash</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-seo-line text-xl mr-2 text-primary"></i>
+                        <span>PromQL</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-braces-line text-xl mr-2 text-primary"></i>
+                        <span>HCL</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-database-2-line text-xl mr-2 text-primary"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-braces-line text-xl mr-2 text-primary"></i>
+                        <span>JSON</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-braces-line text-xl mr-2 text-primary"></i>
+                        <span>YAML</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-code-s-slash-line text-xl mr-2 text-primary"></i>
+                        <span>XML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold mb-6 text-primary">Infrastructure & DevOps</h3>
+                <div class="flex flex-wrap gap-4">
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-coreos-line text-xl mr-2 text-primary"></i>
+                        <span>Linux</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-server-line text-xl mr-2 text-primary"></i>
+                        <span>Docker & Docker Compose</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-cpu-line text-xl mr-2 text-primary"></i>
+                        <span>Kubernetes</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-git-branch-line text-xl mr-2 text-primary"></i>
+                        <span>Git/GitHub</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-cloud-line text-xl mr-2 text-primary"></i>
+                        <span>Terraform</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-cpu-line text-xl mr-2 text-primary"></i>
+                        <span>VirtualBox</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-dashboard-line text-xl mr-2 text-primary"></i>
+                        <span>Proxmox</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-server-line text-xl mr-2 text-primary"></i>
+                        <span>Traefik</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-line-chart-line text-xl mr-2 text-primary"></i>
+                        <span>Prometheus</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold mb-6 text-primary">Cloud Services</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold mb-4">AWS</h4>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>EC2, ECS, EKS</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>VPC, Transit Gateway, Direct Connect</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>S3, DynamoDB, RDS</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>CloudFormation, CDK</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>Lambda, API Gateway</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-4">GCP</h4>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>Compute Engine, GKE</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>VPC, VPN, Cloud Interconnect</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>Cloud Storage</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>App Engine, Cloud Run</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="ri-checkbox-circle-line text-primary mr-2"></i>
+                                <span>Deployment Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-6 text-primary">Security & Networking</h3>
+                <div class="flex flex-wrap gap-4">
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-shield-check-line text-xl mr-2 text-primary"></i>
+                        <span>IAM & Security Policies</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-lock-line text-xl mr-2 text-primary"></i>
+                        <span>SSL/TLS</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-router-line text-xl mr-2 text-primary"></i>
+                        <span>VPCs and Subnetting</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-global-line text-xl mr-2 text-primary"></i>
+                        <span>DNS & CDN</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-lock-line text-xl mr-2 text-primary"></i>
+                        <span>Reverse Proxies</span>
+                    </div>
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                        <i class="ri-fire-line text-xl mr-2 text-primary"></i>
+                        <span>Firewalls</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="py-20 px-6 parallax-section"
+        style="background-image: url(''); background-color: rgba(0, 0, 0, 0.92); background-blend-mode: overlay;">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold mb-12">Project Showcase</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-[#1a1a1a] p-6 rounded transition-transform hover:scale-105">
+                    <h3 class="text-xl font-semibold mb-4">High Available AWS EKS cluster with an unmanaged EC2 Autoscaling group</h3>
+                    <p class="text-gray-400 mb-4">Designed and implemented an AWS HA EKS Cluster using Terraform.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">AWS</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Terraform</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">HCL</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Bash</span>   
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Kubernetes</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Git</span>          
+                    </div>
+                    <a href="https://github.com/cralonsobcn/cralonsobcn-tf-eks-project" class="text-primary hover:underline">View on GitHub →</a>
+                </div>
+                <div class="bg-[#1a1a1a] p-6 rounded transition-transform hover:scale-105">
+                    <h3 class="text-xl font-semibold mb-4">Full Automated Home Server</h3>
+                    <p class="text-gray-400 mb-4">Built a fully automated Home Server with 3 appliances: Security, Server, NAS with several services exposed to the internet using Cloudflare Tunnels and behind a reverse proxy</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Git</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Terraform</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">HCL</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Bash</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Proxmox</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Traefik</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Cloudflare</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">SSL certificates</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Docker</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Docker Compose</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Prometheus</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">DNS</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Routing tables</span>
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Disaster Recovery</span>
+                    </div>
+                    <a href="https://github.com/cralonsobcn/Server" class="text-primary hover:underline">View on GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications" class="py-20 px-6 bg-[#1a1a1a] parallax-section"
+        style="background-image: url(''); background-color: rgba(0, 0, 0, 0.92); background-blend-mode: overlay;">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold mb-12">Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-[#242424] p-6 rounded">
+                    <i class="ri-award-line text-4xl text-primary mb-4"></i>
+                    <h3 class="font-semibold mb-2">Google Cloud Associate Cloud Engineer</h3>
+                    <p class="text-sm text-gray-400">Issued July 2024</p>
+                </div>
+                <div class="bg-[#242424] p-6 rounded">
+                    <i class="ri-award-line text-4xl text-primary mb-4"></i>
+                    <h3 class="font-semibold mb-2">CKA: Certified Kubernetes Administrator</h3>
+                    <p class="text-sm text-gray-400">Issued November 2024</p>
+                </div>
+                <div class="bg-[#242424] p-6 rounded">
+                    <i class="ri-award-line text-4xl text-primary mb-4"></i>
+                    <h3 class="font-semibold mb-2">AWS Solutions Architect Associate</h3>
+                    <p class="text-sm text-gray-400">Ongoing</p>
+                </div>
+                <div class="bg-[#242424] p-6 rounded">
+                    <i class="ri-award-line text-4xl text-primary mb-4"></i>
+                    <h3 class="font-semibold mb-2">Prometheus Certified Associate</h3>
+                    <p class="text-sm text-gray-400">Ongoing</p>
+                </div>
+                <div class="bg-[#242424] p-6 rounded">
+                    <i class="ri-award-line text-4xl text-primary mb-4"></i>
+                    <h3 class="font-semibold mb-2">Terraform Associate</h3>
+                    <p class="text-sm text-gray-400">Ongoing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-20 px-6 parallax-section"
+        style="background-image: url(''); background-color: rgba(0, 0, 0, 0.92); background-blend-mode: overlay;">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-12">Get In Touch</h2>
+            <div class="flex justify-center space-x-8 mb-12">
+                <a href="https://www.linkedin.com/in/cristian-a-811a2b148/"
+                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors">
+                    <i class="ri-linkedin-fill text-2xl"></i>
+                </a>
+                <a href="mailto:cralonsoh8@gmail.com"
+                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors">
+                    <i class="ri-mail-fill text-2xl"></i>
+            </a>
+            </div>
+            <p class="text-gray-400">Feel free to reach out for job opportunities or just a friendly chat!</p>
+        </div>
+    </section>
+    <footer class="bg-[#1a1a1a] py-8 px-6">
+        <div class="container mx-auto max-w-4xl text-center text-gray-400">
+            <p>© 2025 Cristian Alonso. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const texts = [
+            "Google Cloud, Associate Cloud Engineer",
+            //"Amazon Web Services, Solutions Architect Associate",
+            //"Prometheus, Certified Associate",
+            //"Terraform, Certified Associate",
+            "Containerization with Docker and Compose",
+            "Kubernetes Administrator Certified",
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        const terminalElement = document.getElementById('terminal');
+        function type() {
+            if (charIndex < texts[textIndex].length) {
+                terminalElement.textContent = texts[textIndex].substring(0, charIndex + 1);
+                charIndex++;
+                setTimeout(type, 100);
+            } else {
+                setTimeout(erase, 2000);
+            }
+        }
+        function erase() {
+            if (charIndex > 0) {
+                terminalElement.textContent = texts[textIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, 50);
+            } else {
+                textIndex = (textIndex + 1) % texts.length;
+                setTimeout(type, 500);
+            }
+        }
+        type();
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        // Parallax scrolling effect
+        window.addEventListener('scroll', function () {
+            const parallaxSections = document.querySelectorAll('.parallax-section');
+            parallaxSections.forEach(section => {
+                const distance = window.scrollY;
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                // Only apply parallax if section is in view
+                if (distance > sectionTop - window.innerHeight && distance < sectionTop + sectionHeight) {
+                    // Calculate parallax offset - slower movement for background
+                    const yPos = -(distance - sectionTop) * 0.15;
+                    section.style.backgroundPosition = `center ${yPos}px`;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
