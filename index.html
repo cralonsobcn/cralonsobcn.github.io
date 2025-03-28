@@ -70,7 +70,7 @@
     </style>
 </head>
 
-<body class="bg-[#121212] text-[#E0E0E0] min-h-screen parallax-section" style="background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*RffZtuEh4NTpsT_RnaYhqg.png'); background-color: rgba(0, 0, 0, 0); background-blend-mode: overlay; background-size: 130%;">
+<body class="bg-[#121212] text-[#E0E0E0] min-h-screen parallax-section" style="background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*RffZtuEh4NTpsT_RnaYhqg.png'); background-color: rgba(0, 0, 0, 0); background-blend-mode: overlay; background-size: cover">
     <nav class="fixed top-0 w-full bg-[#1a1a1a] backdrop-blur-md z-50">
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
@@ -453,7 +453,7 @@
                 // Only apply parallax if section is in view
                 if (distance > sectionTop - window.innerHeight && distance < sectionTop + sectionHeight) {
                     // Calculate parallax offset - slower movement for background
-                    const yPos = -(distance - sectionTop) * 0.15;
+                    const yPos = -(distance - sectionTop) * 0.015;
                     section.style.backgroundPosition = `center ${yPos}px`;
                 }
             });
