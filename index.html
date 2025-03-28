@@ -91,7 +91,7 @@
         <div class="container mx-auto max-w-4xl">
             <h1 class="text-5xl font-bold mb-4">Cristian Alonso</h1>
             <h2 class="text-2xl text-primary mb-6">Junior Software Engineer | Junior Cloud Engineer</h2>
-            <div class="terminal-text text-lg mb-8" id="terminal" style="color:limegreen; font-family:monospace;" ></div>
+            <div class="terminal-text text-lg mb-8" id="terminal" style="color:limegreen; font-family:monospace;"></div>
             <p class="text-xl text-gray-400 max-w-2xl">I'm passionate about Cloud infrastructure, automation, security, best practices and helping people achieve their goals.</p>
             <p class="text-xl text-gray-400 max-w-2xl">Problem solver with strong communication and adaptability skills, capable of prioritizing high volumes of work based on issue severity and internal SLAs, ensuring efficient and organized task management.</p>
         </div>
@@ -100,6 +100,7 @@
         style="background-image: url(''); background-color: rgba(0, 0, 0, 0.92); background-blend-mode: overlay;">
         <div class="container mx-auto max-w-4xl">
             <h2 class="text-3xl font-bold mb-12">About Me</h2>
+            <h3 class="text-lg mb-12" style="color: limegreen; font-family: monospace;">==========BEGIN PRIVATE KEY==========</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div>
                     <p class="text-gray-300 mb-6">Experienced Google Cloud Escalation Manager with a strong background in managing technical escalations, I'm transitioning into a hands-on technical role by specializing in cloud infrastructure and networking architecture,
@@ -129,6 +130,7 @@
                     </div>
                 </div>
             </div>
+            <h3 class="text-lg mb-12" style="color: limegreen; font-family: monospace;">=====================================</h3>
         </div>
     </section>
     <section id="technologies" class="py-20 px-6 parallax-section"
@@ -404,15 +406,15 @@
     </footer>
     <script>
         const texts = [
-            "Certified Google Cloud: Associate Cloud Engineer",
-            //"Certified AWS: Solutions Architect Associate",
-            //"Certified Prometheus Associate",
-            //"Certified Terraform Associate",
-            "Expertise with Docker and Docker Compose",
-            "Certified Kubernetes Administrator",
+            "$ Certified Google Cloud: Associate Cloud Engineer",
+            //"$ Certified AWS: Solutions Architect Associate",
+            //"$ Certified Prometheus Associate",
+            //"$ Certified Terraform Associate",
+            "$ Expertise with Docker and Docker Compose",
+            "$ Certified Kubernetes Administrator",
         ];
         let textIndex = 0;
-        let charIndex = 0;
+        let charIndex = 1;
         const terminalElement = document.getElementById('terminal');
         function type() {
             if (charIndex < texts[textIndex].length) {
@@ -424,7 +426,7 @@
             }
         }
         function erase() {
-            if (charIndex > 0) {
+            if (charIndex > 1) {
                 terminalElement.textContent = texts[textIndex].substring(0, charIndex - 1);
                 charIndex--;
                 setTimeout(erase, 25);
