@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristian Alonso</title>
     <script src="https://cdn.tailwindcss.com/3.4.16"></script>
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/simple-icons/simple-icons/337791ce270bd05fb1dffff9e79a5885b8dd7800/icons/gnubash.svg">
+    <link rel="icon" type="image/x-icon"
+        href="https://raw.githubusercontent.com/simple-icons/simple-icons/337791ce270bd05fb1dffff9e79a5885b8dd7800/icons/gnubash.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -71,7 +72,9 @@
     </style>
 </head>
 
-<body class="bg-[#121212] text-[#E0E0E0] min-h-screen parallax-section" style="background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*RffZtuEh4NTpsT_RnaYhqg.png'); background-color: rgba(0, 0, 0, 0); background-blend-mode: overlay; background-size: cover; background-position:top;">
+<body class="bg-[#121212] text-[#E0E0E0] min-h-screen parallax-section"
+    style="background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*RffZtuEh4NTpsT_RnaYhqg.png'); background-color: rgba(0, 0, 0, 0); background-blend-mode: overlay; background-size: cover; background-position:top;">
+
     <nav class="fixed top-0 w-full bg-[#1a1a1a] backdrop-blur-md z-50">
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
@@ -98,6 +101,7 @@
         </div>
     </header>
 
+    <!-- About Me -->
     <section id="about" class="py-20 px-6 bg-[#1a1a1a]"
         style="background-color: rgba(0, 0, 0, 0.5); background-blend-mode: overlay;">
         <div class="container mx-auto max-w-4xl">
@@ -105,48 +109,68 @@
 
             <div class="md:grid grid-cols-2 gap-12">
                 <div style="align-content: space-around;">
-                    <p class="text-gray-300 mb-6">I’m Cristian, a Cloud & Kubernetes Engineer based in Barcelona, Spain. I specialize in building, automating, and securing cloud-native infrastructure, with certifications in Kubernetes (CKA/CKAD), Terraform, and Google Cloud.</p>
-                    <p class="text-gray-300 mb-6">With 2+ years of experience in cloud environments, I’ve supported complex GCP escalations and developed hands-on expertise through projects in AWS and GCP. My background includes validating technical solutions, managing incident escalations with strict SLAs/SLOs, and coordinating across engineering and product teams.</p>
-                    <p class="text-gray-300 mb-6">Beyond professional experience, I’ve designed and deployed highly available Kubernetes clusters and automated infrastructure in my personal labs, focusing on IaC with Terraform, Kubernetes administration, and multi-cloud resilience.</p>
-                    <p class="text-gray-300 mb-6">I’m passionate about reliability, automation, and enabling teams to deliver scalable, cost-efficient services. Currently targeting roles in Kubernetes Administration, Cloud Engineering, Platform Engineering, Site Reliability Engineering, and DevOps.</p>
+                    <p class="text-gray-300 mb-6">I’m Cristian, a Cloud & Kubernetes Engineer based in Barcelona, Spain.
+                        I specialize in building, automating, and securing cloud-native infrastructure, with
+                        certifications in Kubernetes (CKA/CKAD), Terraform, and Google Cloud.</p>
+                    <p class="text-gray-300 mb-6">With 2+ years of experience in cloud environments, I’ve supported
+                        complex GCP escalations and developed hands-on expertise through projects in AWS and GCP. My
+                        background includes validating technical solutions, managing incident escalations with strict
+                        SLAs/SLOs, and coordinating across engineering and product teams.</p>
+                    <p class="text-gray-300 mb-6">Beyond professional experience, I’ve designed and deployed highly
+                        available Kubernetes clusters and automated infrastructure in my personal labs, focusing on IaC
+                        with Terraform, Kubernetes administration, and multi-cloud resilience.</p>
+                    <p class="text-gray-300 mb-6">I’m passionate about reliability, automation, and enabling teams to
+                        deliver scalable, cost-efficient services. Currently targeting roles in Kubernetes
+                        Administration, Cloud Engineering, Platform Engineering, Site Reliability Engineering, and
+                        DevOps.</p>
                 </div>
                 <div class="grid grid-cols-2 grid-span-1 gap-6 " style="place-items: center;">
-                    
-                    <div class="bg-[#242424] p-6 rounded">                         
-                        <img src="https://googlecloudplatform.github.io/kubeflow-gke-docs/docs/images/logos/gcp.png" style="justify-self: center;" width="50%">
+
+                    <div class="bg-[#242424] p-6 rounded">
+                        <img src="https://googlecloudplatform.github.io/kubeflow-gke-docs/docs/images/logos/gcp.png"
+                            style="justify-self: center;" width="50%">
                         <h3 class="font-semibold mb-2" style="justify-self: center;">GCP</h3>
                     </div>
 
                     <div class="bg-[#242424] p-6 rounded">
-                        <svg role="img" width="50%" style="justify-self: center; fill:#FF9900;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z"/>
+                        <svg role="img" width="50%" style="justify-self: center; fill:#FF9900;" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z" />
                         </svg>
                         <h3 class="font-semibold mb-2" style="justify-self: center;">AWS</h3>
                     </div>
 
                     <div class="bg-[#242424] p-6 rounded">
-                        <svg role="img" width="50%" style="justify-self: center; fill:#0066cc;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.204 14.35l.007.01-.999 2.413a5.171 5.171 0 0 1-2.075-2.597l2.578-.437.004.005a.44.44 0 0 1 .484.606zm-.833-2.129a.44.44 0 0 0 .173-.756l.002-.011L7.585 9.7a5.143 5.143 0 0 0-.73 3.255l2.514-.725.002-.009zm1.145-1.98a.44.44 0 0 0 .699-.337l.01-.005.15-2.62a5.144 5.144 0 0 0-3.01 1.442l2.147 1.523.004-.002zm.76 2.75l.723.349.722-.347.18-.78-.5-.623h-.804l-.5.623.179.779zm1.5-3.095a.44.44 0 0 0 .7.336l.008.003 2.134-1.513a5.188 5.188 0 0 0-2.992-1.442l.148 2.615.002.001zm10.876 5.97l-5.773 7.181a1.6 1.6 0 0 1-1.248.594l-9.261.003a1.6 1.6 0 0 1-1.247-.596l-5.776-7.18a1.583 1.583 0 0 1-.307-1.34L2.1 5.573c.108-.47.425-.864.863-1.073L11.305.513a1.606 1.606 0 0 1 1.385 0l8.345 3.985c.438.209.755.604.863 1.073l2.062 8.955c.108.47-.005.963-.308 1.34zm-3.289-2.057c-.042-.01-.103-.026-.145-.034-.174-.033-.315-.025-.479-.038-.35-.037-.638-.067-.895-.148-.105-.04-.18-.165-.216-.216l-.201-.059a6.45 6.45 0 0 0-.105-2.332 6.465 6.465 0 0 0-.936-2.163c.052-.047.15-.133.177-.159.008-.09.001-.183.094-.282.197-.185.444-.338.743-.522.142-.084.273-.137.415-.242.032-.024.076-.062.11-.089.24-.191.295-.52.123-.736-.172-.216-.506-.236-.745-.045-.034.027-.08.062-.111.088-.134.116-.217.23-.33.35-.246.25-.45.458-.673.609-.097.056-.239.037-.303.033l-.19.135a6.545 6.545 0 0 0-4.146-2.003l-.012-.223c-.065-.062-.143-.115-.163-.25-.022-.268.015-.557.057-.905.023-.163.061-.298.068-.475.001-.04-.001-.099-.001-.142 0-.306-.224-.555-.5-.555-.275 0-.499.249-.499.555l.001.014c0 .041-.002.092 0 .128.006.177.044.312.067.475.042.348.078.637.056.906a.545.545 0 0 1-.162.258l-.012.211a6.424 6.424 0 0 0-4.166 2.003 8.373 8.373 0 0 1-.18-.128c-.09.012-.18.04-.297-.029-.223-.15-.427-.358-.673-.608-.113-.12-.195-.234-.329-.349-.03-.026-.077-.062-.111-.088a.594.594 0 0 0-.348-.132.481.481 0 0 0-.398.176c-.172.216-.117.546.123.737l.007.005.104.083c.142.105.272.159.414.242.299.185.546.338.743.522.076.082.09.226.1.288l.16.143a6.462 6.462 0 0 0-1.02 4.506l-.208.06c-.055.072-.133.184-.215.217-.257.081-.546.11-.895.147-.164.014-.305.006-.48.039-.037.007-.09.02-.133.03l-.004.002-.007.002c-.295.071-.484.342-.423.608.061.267.349.429.645.365l.007-.001.01-.003.129-.029c.17-.046.294-.113.448-.172.33-.118.604-.217.87-.256.112-.009.23.069.288.101l.217-.037a6.5 6.5 0 0 0 2.88 3.596l-.09.218c.033.084.069.199.044.282-.097.252-.263.517-.452.813-.091.136-.185.242-.268.399-.02.037-.045.095-.064.134-.128.275-.034.591.213.71.248.12.556-.007.69-.282v-.002c.02-.039.046-.09.062-.127.07-.162.094-.301.144-.458.132-.332.205-.68.387-.897.05-.06.13-.082.215-.105l.113-.205a6.453 6.453 0 0 0 4.609.012l.106.192c.086.028.18.042.256.155.136.232.229.507.342.84.05.156.074.295.145.457.016.037.043.09.062.129.133.276.442.402.69.282.247-.118.341-.435.213-.71-.02-.039-.045-.096-.065-.134-.083-.156-.177-.261-.268-.398-.19-.296-.346-.541-.443-.793-.04-.13.007-.21.038-.294-.018-.022-.059-.144-.083-.202a6.499 6.499 0 0 0 2.88-3.622c.064.01.176.03.213.038.075-.05.144-.114.28-.104.266.039.54.138.87.256.154.06.277.128.448.173.036.01.088.019.13.028l.009.003.007.001c.297.064.584-.098.645-.365.06-.266-.128-.537-.423-.608zM16.4 9.701l-1.95 1.746v.005a.44.44 0 0 0 .173.757l.003.01 2.526.728a5.199 5.199 0 0 0-.108-1.674A5.208 5.208 0 0 0 16.4 9.7zm-4.013 5.325a.437.437 0 0 0-.404-.232.44.44 0 0 0-.372.233h-.002l-1.268 2.292a5.164 5.164 0 0 0 3.326.003l-1.27-2.296h-.01zm1.888-1.293a.44.44 0 0 0-.27.036.44.44 0 0 0-.214.572l-.003.004 1.01 2.438a5.15 5.15 0 0 0 2.081-2.615l-2.6-.44-.004.005z"/>
+                        <svg role="img" width="50%" style="justify-self: center; fill:#0066cc;" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.204 14.35l.007.01-.999 2.413a5.171 5.171 0 0 1-2.075-2.597l2.578-.437.004.005a.44.44 0 0 1 .484.606zm-.833-2.129a.44.44 0 0 0 .173-.756l.002-.011L7.585 9.7a5.143 5.143 0 0 0-.73 3.255l2.514-.725.002-.009zm1.145-1.98a.44.44 0 0 0 .699-.337l.01-.005.15-2.62a5.144 5.144 0 0 0-3.01 1.442l2.147 1.523.004-.002zm.76 2.75l.723.349.722-.347.18-.78-.5-.623h-.804l-.5.623.179.779zm1.5-3.095a.44.44 0 0 0 .7.336l.008.003 2.134-1.513a5.188 5.188 0 0 0-2.992-1.442l.148 2.615.002.001zm10.876 5.97l-5.773 7.181a1.6 1.6 0 0 1-1.248.594l-9.261.003a1.6 1.6 0 0 1-1.247-.596l-5.776-7.18a1.583 1.583 0 0 1-.307-1.34L2.1 5.573c.108-.47.425-.864.863-1.073L11.305.513a1.606 1.606 0 0 1 1.385 0l8.345 3.985c.438.209.755.604.863 1.073l2.062 8.955c.108.47-.005.963-.308 1.34zm-3.289-2.057c-.042-.01-.103-.026-.145-.034-.174-.033-.315-.025-.479-.038-.35-.037-.638-.067-.895-.148-.105-.04-.18-.165-.216-.216l-.201-.059a6.45 6.45 0 0 0-.105-2.332 6.465 6.465 0 0 0-.936-2.163c.052-.047.15-.133.177-.159.008-.09.001-.183.094-.282.197-.185.444-.338.743-.522.142-.084.273-.137.415-.242.032-.024.076-.062.11-.089.24-.191.295-.52.123-.736-.172-.216-.506-.236-.745-.045-.034.027-.08.062-.111.088-.134.116-.217.23-.33.35-.246.25-.45.458-.673.609-.097.056-.239.037-.303.033l-.19.135a6.545 6.545 0 0 0-4.146-2.003l-.012-.223c-.065-.062-.143-.115-.163-.25-.022-.268.015-.557.057-.905.023-.163.061-.298.068-.475.001-.04-.001-.099-.001-.142 0-.306-.224-.555-.5-.555-.275 0-.499.249-.499.555l.001.014c0 .041-.002.092 0 .128.006.177.044.312.067.475.042.348.078.637.056.906a.545.545 0 0 1-.162.258l-.012.211a6.424 6.424 0 0 0-4.166 2.003 8.373 8.373 0 0 1-.18-.128c-.09.012-.18.04-.297-.029-.223-.15-.427-.358-.673-.608-.113-.12-.195-.234-.329-.349-.03-.026-.077-.062-.111-.088a.594.594 0 0 0-.348-.132.481.481 0 0 0-.398.176c-.172.216-.117.546.123.737l.007.005.104.083c.142.105.272.159.414.242.299.185.546.338.743.522.076.082.09.226.1.288l.16.143a6.462 6.462 0 0 0-1.02 4.506l-.208.06c-.055.072-.133.184-.215.217-.257.081-.546.11-.895.147-.164.014-.305.006-.48.039-.037.007-.09.02-.133.03l-.004.002-.007.002c-.295.071-.484.342-.423.608.061.267.349.429.645.365l.007-.001.01-.003.129-.029c.17-.046.294-.113.448-.172.33-.118.604-.217.87-.256.112-.009.23.069.288.101l.217-.037a6.5 6.5 0 0 0 2.88 3.596l-.09.218c.033.084.069.199.044.282-.097.252-.263.517-.452.813-.091.136-.185.242-.268.399-.02.037-.045.095-.064.134-.128.275-.034.591.213.71.248.12.556-.007.69-.282v-.002c.02-.039.046-.09.062-.127.07-.162.094-.301.144-.458.132-.332.205-.68.387-.897.05-.06.13-.082.215-.105l.113-.205a6.453 6.453 0 0 0 4.609.012l.106.192c.086.028.18.042.256.155.136.232.229.507.342.84.05.156.074.295.145.457.016.037.043.09.062.129.133.276.442.402.69.282.247-.118.341-.435.213-.71-.02-.039-.045-.096-.065-.134-.083-.156-.177-.261-.268-.398-.19-.296-.346-.541-.443-.793-.04-.13.007-.21.038-.294-.018-.022-.059-.144-.083-.202a6.499 6.499 0 0 0 2.88-3.622c.064.01.176.03.213.038.075-.05.144-.114.28-.104.266.039.54.138.87.256.154.06.277.128.448.173.036.01.088.019.13.028l.009.003.007.001c.297.064.584-.098.645-.365.06-.266-.128-.537-.423-.608zM16.4 9.701l-1.95 1.746v.005a.44.44 0 0 0 .173.757l.003.01 2.526.728a5.199 5.199 0 0 0-.108-1.674A5.208 5.208 0 0 0 16.4 9.7zm-4.013 5.325a.437.437 0 0 0-.404-.232.44.44 0 0 0-.372.233h-.002l-1.268 2.292a5.164 5.164 0 0 0 3.326.003l-1.27-2.296h-.01zm1.888-1.293a.44.44 0 0 0-.27.036.44.44 0 0 0-.214.572l-.003.004 1.01 2.438a5.15 5.15 0 0 0 2.081-2.615l-2.6-.44-.004.005z" />
                         </svg>
                         <h3 class="font-semibold mb-2" style="justify-self: center;">Kubernetes</h3>
                     </div>
 
                     <div class="bg-[#242424] p-6 rounded">
-                        <svg role="img" width="50%" style="justify-self: center; fill:#844FBA;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.44 0v7.575l6.561 3.79V3.787zm21.12 4.227l-6.561 3.791v7.574l6.56-3.787zM8.72 4.23v7.575l6.561 3.787V8.018zm0 8.405v7.575L15.28 24v-7.578z"/>
+                        <svg role="img" width="50%" style="justify-self: center; fill:#844FBA;" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.44 0v7.575l6.561 3.79V3.787zm21.12 4.227l-6.561 3.791v7.574l6.56-3.787zM8.72 4.23v7.575l6.561 3.787V8.018zm0 8.405v7.575L15.28 24v-7.578z" />
                         </svg>
                         <h3 class="font-semibold mb-2" style="justify-self: center;">Terraform</h3>
                     </div>
 
                     <div class="bg-[#242424] p-6 rounded">
-                        <svg role="img" width="50%" style="justify-self: center; fill:#2496ED;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z"/>
+                        <svg role="img" width="50%" style="justify-self: center; fill:#2496ED;" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z" />
                         </svg>
                         <h3 class="font-semibold mb-2" style="justify-self: center;">Docker</h3>
                     </div>
 
                     <div class="bg-[#242424] p-6 rounded">
-                        <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/3e2709e7a8bb561128a4738c8ce64cd945e7f8a1/svg/java.svg" style="justify-self: center;" width="27%">
+                        <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/3e2709e7a8bb561128a4738c8ce64cd945e7f8a1/svg/java.svg"
+                            style="justify-self: center;" width="27%">
                         <h3 class="font-semibold mb-2" style="justify-self: center;">Java</h3>
                     </div>
 
@@ -155,17 +179,18 @@
         </div>
     </section>
 
+    <!-- Technologies and Skills -->
     <section id="technologies" class="py-20 px-6"
         style="background-image: url(''); background-color: rgba(0, 0, 0, 0.5); background-blend-mode: overlay;">
         <div class="container mx-auto max-w-4xl">
             <h2 class="text-3xl font-bold mb-6">Technologies & Skills</h2>
-    
+
             <!-- Core Skills -->
             <div class="mb-6">
                 <h3 class="text-xl font-semibold mb-6 text-primary">Core Skills</h3>
-                <div class="flex flex-wrap gap-4">
+                <div class="flex flex-wrap gap-4 ">
                     <!-- Kubernetes -->
-                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center ">
                         <img alt="Static Badge"
                             src="https://img.shields.io/badge/Kubernetes-242424?style=for-the-badge&logo=kubernetes">
                     </div>
@@ -181,7 +206,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Public Cloud Providers -->
             <div class="mb-6">
                 <h3 class="text-xl font-semibold mb-6 text-primary">Cloud and Multi-cloud</h3>
@@ -198,7 +223,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Languages and Scripting -->
             <div class="mb-6">
                 <h3 class="text-xl font-semibold mb-6 text-primary">Languages and Scripting</h3>
@@ -225,7 +250,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Markup and Configuration -->
             <div class="mb-6">
                 <h3 class="text-xl font-semibold mb-6 text-primary">Markup and Configuration</h3>
@@ -233,21 +258,22 @@
                     <!-- JSON -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
                         <img alt="Static Badge"
-                            src="https://img.shields.io/badge/JSON-242424?style=for-the-badge&logo=json">
+                            src="https://img.shields.io/badge/JSON-242424?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+PGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiPjwvZz48ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvZz48ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+PHRpdGxlPmZpbGVfdHlwZV9qc29uPC90aXRsZT48cGF0aCBkPSJNNC4wMTQsMTQuOTc2YTIuNTEsMi41MSwwLDAsMCwxLjU2Ny0uNTE4QTIuMzc3LDIuMzc3LDAsMCwwLDYuMzg2LDEzLjEsMTUuMjYxLDE1LjI2MSwwLDAsMCw2LjYsMTAuMTU2cS4wMTItMi4wODUuMDc1LTIuNzQ3YTUuMjM2LDUuMjM2LDAsMCwxLC40MTgtMS42ODYsMy4wMjUsMy4wMjUsMCwwLDEsLjc1NS0xLjAxOEEzLjA0NiwzLjA0NiwwLDAsMSw5LDQuMTI1LDYuNzYyLDYuNzYyLDAsMCwxLDEwLjU0NCw0aC43VjUuOTZoLS4zODdhMi4zMzgsMi4zMzgsMCwwLDAtMS43MjMuNDY4QTMuNCwzLjQsMCwwLDAsOC43MDksOC41MmEzNi4wNTQsMzYuMDU0LDAsMCwxLS4xMzcsNC4xMzMsNC43MzQsNC43MzQsMCwwLDEtLjc2OCwyLjA2QTQuNTY3LDQuNTY3LDAsMCwxLDYuMSwxNmEzLjgwOSwzLjgwOSwwLDAsMSwxLjk5MiwxLjc1NCw4Ljg2MSw4Ljg2MSwwLDAsMSwuNjE4LDMuODY1cTAsMi40MzUuMDUsMi45QTEuNzU1LDEuNzU1LDAsMCwwLDkuMjY0LDI1LjdhMi42MzksMi42MzksMCwwLDAsMS41OTIuMzM3aC4zODdWMjhoLS43YTUuNjU1LDUuNjU1LDAsMCwxLTEuNzczLS4yLDIuOTcsMi45NywwLDAsMS0xLjMyNC0uOTMsMy4zNTMsMy4zNTMsMCwwLDEtLjY4MS0xLjYzQTI0LjE3NSwyNC4xNzUsMCwwLDEsNi42LDIyLjAwNiwxNi40NjksMTYuNDY5LDAsMCwwLDYuMzg2LDE4LjlhMi40MDgsMi40MDgsMCwwLDAtLjgwNS0xLjM2MSwyLjQ4OSwyLjQ4OSwwLDAsMC0xLjU2Ny0uNTI0WiIgc3R5bGU9ImZpbGw6I2Y1ZGUxOSI+PC9wYXRoPjxwYXRoIGQ9Ik0yNy45ODYsMTcuMDExYTIuNDg5LDIuNDg5LDAsMCwwLTEuNTY3LjUyNCwyLjQwOCwyLjQwOCwwLDAsMC0uODA1LDEuMzYxLDE2LjQ2OSwxNi40NjksMCwwLDAtLjIxMiwzLjEwOSwyNC4xNzUsMjQuMTc1LDAsMCwxLS4xNjksMy4yMzQsMy4zNTMsMy4zNTMsMCwwLDEtLjY4MSwxLjYzLDIuOTcsMi45NywwLDAsMS0xLjMyNC45Myw1LjY1NSw1LjY1NSwwLDAsMS0xLjc3My4yaC0uN1YyNi4wNGguMzg3YTIuNjM5LDIuNjM5LDAsMCwwLDEuNTkyLS4zMzcsMS43NTUsMS43NTUsMCwwLDAsLjUwNi0xLjE4NnEuMDUtLjQ2Mi4wNS0yLjlhOC44NjEsOC44NjEsMCwwLDEsLjYxOC0zLjg2NUEzLjgwOSwzLjgwOSwwLDAsMSwyNS45LDE2YTQuNTY3LDQuNTY3LDAsMCwxLTEuNy0xLjI4Niw0LjczNCw0LjczNCwwLDAsMS0uNzY4LTIuMDYsMzYuMDU0LDM2LjA1NCwwLDAsMS0uMTM3LTQuMTMzLDMuNCwzLjQsMCwwLDAtLjQyNS0yLjA5MiwyLjMzOCwyLjMzOCwwLDAsMC0xLjcyMy0uNDY4aC0uMzg3VjRoLjdBNi43NjIsNi43NjIsMCwwLDEsMjMsNC4xMjVhMy4wNDYsMy4wNDYsMCwwLDEsMS4xNDkuNTgxLDMuMDI1LDMuMDI1LDAsMCwxLC43NTUsMS4wMTgsNS4yMzYsNS4yMzYsMCwwLDEsLjQxOCwxLjY4NnEuMDYyLjY2Mi4wNzUsMi43NDdhMTUuMjYxLDE1LjI2MSwwLDAsMCwuMjEyLDIuOTQ3LDIuMzc3LDIuMzc3LDAsMCwwLC44MDUsMS4zNTUsMi41MSwyLjUxLDAsMCwwLDEuNTY3LjUxOFoiIHN0eWxlPSJmaWxsOiNmNWRlMTkiPjwvcGF0aD48L2c+PC9zdmc+">
                     </div>
                     <!-- YAML -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
                         <img alt="Static Badge"
-                            src="https://img.shields.io/badge/YAML-242424?style=for-the-badge&logo=yaml">
+                            src="https://img.shields.io/badge/YAML-242424?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiPjwvZz48ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvZz48ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDxwYXRoIGZpbGwtcnVsZT0ibm9uemVybyIgY2xpcC1ydWxlPSJub256ZXJvIiBkPSJNMC44MjgyODggMC4xMzU1NDFDMS4xNzQyNiAtMC4xMDM5NzUgMS42NDg4OCAtMC4wMTc2NzkgMS44ODg0IDAuMzI4Mjg4TDMuNTgwMDcgMi43NzE4Mkw1LjQ4MzQ0IDAuMjk3NDMxQzUuNzQgLTAuMDM2MDk0NyA2LjIxODM2IC0wLjA5ODQ4OTEgNi41NTE4OSAwLjE1ODA2OUM2Ljg4NTQxIDAuNDE0NjI3IDYuOTQ3ODEgMC44OTI5ODQgNi42OTEyNSAxLjIyNjUxTDQuMzA5NTggNC4zMjI2OFY3LjExMTE1QzQuMzA5NTggNy41MzE5NCAzLjk2ODQ2IDcuODczMDUgMy41NDc2NyA3Ljg3MzA1QzMuMTI2ODkgNy44NzMwNSAyLjc4NTc3IDcuNTMxOTQgMi43ODU3NyA3LjExMTE1VjQuMzAxNTRMMC42MzU1NDEgMS4xOTU2NUMwLjM5NjAyNSAwLjg0OTY4NSAwLjQ4MjMyMSAwLjM3NTA1NyAwLjgyODI4OCAwLjEzNTU0MVpNOC44ODA5OSA2Ljg5MDQ0ZS0wNUM5LjE4MzExIDYuODkwNDRlLTA1IDkuNDU2NjkgMC4xNzg1ODYgOS41NzgzNyAwLjQ1NTEyM0wxMi4zNzIgNi44MDQzQzEyLjU0MTUgNy4xODk0NSAxMi4zNjY2IDcuNjM5MDYgMTEuOTgxNSA3LjgwODUzQzExLjU5NjMgNy45NzggMTEuMTQ2NyA3LjgwMzE1IDEwLjk3NzIgNy40MThMMTAuMjgzNSA1Ljg0MTMxSDcuNDc4NDdMNi43ODQ3MyA3LjQxOEM2LjYxNTI2IDcuODAzMTUgNi4xNjU2NSA3Ljk3OCA1Ljc4MDUgNy44MDg1M0M1LjM5NTM1IDcuNjM5MDYgNS4yMjA1IDcuMTg5NDUgNS4zODk5NyA2LjgwNDNMOC4xODM2MSAwLjQ1NTEyM0M4LjMwNTI4IDAuMTc4NTg2IDguNTc4ODYgNi44OTA0NGUtMDUgOC44ODA5OSA2Ljg5MDQ0ZS0wNVpNOC4xNDg5NCA0LjMxNzUxSDkuNjEzMDNMOC44ODA5OSAyLjY1Mzc3TDguMTQ4OTQgNC4zMTc1MVpNOS42MDQ3MSA4LjY2NjE1QzkuOTI4NTYgOC43NjE3OSAxMC4xNTA4IDkuMDU5MTggMTAuMTUwOCA5LjM5Njg1VjE1LjIzODFDMTAuMTUwOCAxNS42NTg5IDkuODA5NzEgMTYgOS4zODg5MiAxNkM4Ljk2ODEzIDE2IDguNjI3MDIgMTUuNjU4OSA4LjYyNzAyIDE1LjIzODFWMTEuOTc2OEw3LjIzNDk1IDE0LjEyODJDNy4wOTk2MiAxNC4zMzczIDYuODcwNiAxNC40NjcxIDYuNjIxNjQgMTQuNDc1N0M2LjM3MjY4IDE0LjQ4NDQgNi4xMzUyMyAxNC4zNzA3IDUuOTg1NzYgMTQuMTcxNEw0LjMwOTU4IDExLjkzNjVWMTUuMjM4MUM0LjMwOTU4IDE1LjY1ODkgMy45Njg0NiAxNiAzLjU0NzY3IDE2QzMuMTI2ODkgMTYgMi43ODU3NyAxNS42NTg5IDIuNzg1NzcgMTUuMjM4MVY5LjY1MDgyQzIuNzg1NzcgOS4zMjI4OCAyLjk5NTYyIDkuMDMxNzIgMy4zMDY3NCA4LjkyODAyQzMuNjE3ODYgOC44MjQzMSAzLjk2MDQzIDguOTMxMzIgNC4xNTcyIDkuMTkzNjhMNi41NDkyIDEyLjM4M0w4Ljc0OTI1IDguOTgyOTVDOC45MzI2OSA4LjY5OTQ1IDkuMjgwODYgOC41NzA1MSA5LjYwNDcxIDguNjY2MTVaTTExLjkyODYgOC42MzQ5NUMxMi4zNDk0IDguNjM0OTUgMTIuNjkwNSA4Ljk3NjA3IDEyLjY5MDUgOS4zOTY4NVYxNC40NzYySDE0LjcyMjJDMTUuMTQzIDE0LjQ3NjIgMTUuNDg0MSAxNC44MTczIDE1LjQ4NDEgMTUuMjM4MUMxNS40ODQxIDE1LjY1ODkgMTUuMTQzIDE2IDE0LjcyMjIgMTZIMTEuOTI4NkMxMS41MDc4IDE2IDExLjE2NjcgMTUuNjU4OSAxMS4xNjY3IDE1LjIzODFWOS4zOTY4NUMxMS4xNjY3IDguOTc2MDcgMTEuNTA3OCA4LjYzNDk1IDExLjkyODYgOC42MzQ5NVoiIGZpbGw9IiNhNDM3ODciPjwvcGF0aD4gPC9nPjwvc3ZnPg==">
                     </div>
                     <!-- TOML -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
                         <img alt="Static Badge"
-                            src="https://img.shields.io/badge/TOML-242424?style=for-the-badge&logo=toml">
+                            src="https://img.shields.io/badge/TOML-242424?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+PGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiPjwvZz48ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvZz48ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+PHRpdGxlPmZpbGVfdHlwZV9saWdodF90b21sPC90aXRsZT48cGF0aCBkPSJNMjIuNzYsNi44M3YzLjI1aC01VjI1LjE3SDE0LjI2VjEwLjA4aC01VjYuODNaIj48L3BhdGg+PHBhdGggZD0iTTIsMkg4LjJWNS4wOUg1LjM0djIxLjhIOC4yVjMwSDJaIiBzdHlsZT0iZmlsbDojN2U3ZjdmIj48L3BhdGg+PHBhdGggZD0iTTMwLDMwSDIzLjhWMjYuOTFoMi44NlY1LjExSDIzLjhWMkgzMFoiIHN0eWxlPSJmaWxsOiM3ZTdmN2YiPjwvcGF0aD48L2c+PC9zdmc+">
                     </div>
                     <!-- XML -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
-                        <img alt="Static Badge" src="https://img.shields.io/badge/XML-242424?style=for-the-badge&logo=xml">
+                        <img alt="Static Badge"
+                            src="https://img.shields.io/badge/XML-242424?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBoZWlnaHQ9IjIwMHB4IiB3aWR0aD0iMjAwcHgiIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDU2IDU2IiB4bWw6c3BhY2U9InByZXNlcnZlIiBmaWxsPSIjMDAwMDAwIj48ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCI+PC9nPjxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9nPjxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4gPGc+IDxwYXRoIHN0eWxlPSJmaWxsOiNFOUU5RTA7IiBkPSJNMzYuOTg1LDBINy45NjNDNy4xNTUsMCw2LjUsMC42NTUsNi41LDEuOTI2VjU1YzAsMC4zNDUsMC42NTUsMSwxLjQ2MywxaDQwLjA3NCBjMC44MDgsMCwxLjQ2My0wLjY1NSwxLjQ2My0xVjEyLjk3OGMwLTAuNjk2LTAuMDkzLTAuOTItMC4yNTctMS4wODVMMzcuNjA3LDAuMjU3QzM3LjQ0MiwwLjA5MywzNy4yMTgsMCwzNi45ODUsMHoiPjwvcGF0aD4gPHBvbHlnb24gc3R5bGU9ImZpbGw6I0Q5RDdDQTsiIHBvaW50cz0iMzcuNSwwLjE1MSAzNy41LDEyIDQ5LjM0OSwxMiAiPjwvcG9seWdvbj4gPHBhdGggc3R5bGU9ImZpbGw6I0YyOUMxRjsiIGQ9Ik00OC4wMzcsNTZINy45NjNDNy4xNTUsNTYsNi41LDU1LjM0NSw2LjUsNTQuNTM3VjM5aDQzdjE1LjUzN0M0OS41LDU1LjM0NSw0OC44NDUsNTYsNDguMDM3LDU2eiI+PC9wYXRoPiA8Zz4gPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik0xOS4zNzksNDguMTA1TDIxLjkzNiw1M2gtMS45bC0xLjYtMy44MDFoLTAuMTM3TDE2LjU3Niw1M2gtMS45bDIuNTU3LTQuODk1bC0yLjcyMS01LjE4MmgxLjg3MyBsMS43NzcsNC4xMDJoMC4xMzdsMS45MjgtNC4xMDJIMjIuMUwxOS4zNzksNDguMTA1eiI+PC9wYXRoPiA8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTMxLjk5OCw0Mi45MjRoMS42NjhWNTNoLTEuNjY4di02LjkzMmwtMi4yNTYsNS42MDVoLTEuNDQ5bC0yLjI3LTUuNjA1VjUzaC0xLjY2OFY0Mi45MjRoMS42NjggbDIuOTk0LDYuODkxTDMxLjk5OCw0Mi45MjR6Ij48L3BhdGg+IDxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMzcuODYzLDQyLjkyNHY4LjgzMmg0LjYzNVY1M2gtNi4zMDNWNDIuOTI0SDM3Ljg2M3oiPjwvcGF0aD4gPC9nPiA8cGF0aCBzdHlsZT0iZmlsbDojRjI5QzFGOyIgZD0iTTE1LjUsMjRjLTAuMjU2LDAtMC41MTItMC4wOTgtMC43MDctMC4yOTNjLTAuMzkxLTAuMzkxLTAuMzkxLTEuMDIzLDAtMS40MTRsNi02IGMwLjM5MS0wLjM5MSwxLjAyMy0wLjM5MSwxLjQxNCwwczAuMzkxLDEuMDIzLDAsMS40MTRsLTYsNkMxNi4wMTIsMjMuOTAyLDE1Ljc1NiwyNCwxNS41LDI0eiI+PC9wYXRoPiA8cGF0aCBzdHlsZT0iZmlsbDojRjI5QzFGOyIgZD0iTTIxLjUsMzBjLTAuMjU2LDAtMC41MTItMC4wOTgtMC43MDctMC4yOTNsLTYtNmMtMC4zOTEtMC4zOTEtMC4zOTEtMS4wMjMsMC0xLjQxNCBzMS4wMjMtMC4zOTEsMS40MTQsMGw2LDZjMC4zOTEsMC4zOTEsMC4zOTEsMS4wMjMsMCwxLjQxNEMyMi4wMTIsMjkuOTAyLDIxLjc1NiwzMCwyMS41LDMweiI+PC9wYXRoPiA8cGF0aCBzdHlsZT0iZmlsbDojRjI5QzFGOyIgZD0iTTMzLjUsMzBjLTAuMjU2LDAtMC41MTItMC4wOTgtMC43MDctMC4yOTNjLTAuMzkxLTAuMzkxLTAuMzkxLTEuMDIzLDAtMS40MTRsNi02IGMwLjM5MS0wLjM5MSwxLjAyMy0wLjM5MSwxLjQxNCwwczAuMzkxLDEuMDIzLDAsMS40MTRsLTYsNkMzNC4wMTIsMjkuOTAyLDMzLjc1NiwzMCwzMy41LDMweiI+PC9wYXRoPiA8cGF0aCBzdHlsZT0iZmlsbDojRjI5QzFGOyIgZD0iTTM5LjUsMjRjLTAuMjU2LDAtMC41MTItMC4wOTgtMC43MDctMC4yOTNsLTYtNmMtMC4zOTEtMC4zOTEtMC4zOTEtMS4wMjMsMC0xLjQxNCBzMS4wMjMtMC4zOTEsMS40MTQsMGw2LDZjMC4zOTEsMC4zOTEsMC4zOTEsMS4wMjMsMCwxLjQxNEM0MC4wMTIsMjMuOTAyLDM5Ljc1NiwyNCwzOS41LDI0eiI+PC9wYXRoPiA8cGF0aCBzdHlsZT0iZmlsbDojRjI5QzFGOyIgZD0iTTI0LjUsMzJjLTAuMTEsMC0wLjIyMy0wLjAxOS0wLjMzMy0wLjA1OGMtMC41MjEtMC4xODQtMC43OTQtMC43NTUtMC42MS0xLjI3Nmw2LTE3IGMwLjE4NS0wLjUyMSwwLjc1My0wLjc5NSwxLjI3Ni0wLjYxYzAuNTIxLDAuMTg0LDAuNzk0LDAuNzU1LDAuNjEsMS4yNzZsLTYsMTdDMjUuMjk4LDMxLjc0NCwyNC45MTIsMzIsMjQuNSwzMnoiPjwvcGF0aD4gPC9nPiA8L2c+PC9zdmc+">
                     </div>
                     <!-- Markdown -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
@@ -256,13 +282,13 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Orchestration, Ops and Automation -->
             <div class="mb-6">
                 <h3 class="text-xl font-semibold mb-6 text-primary">Orchestration, Ops and Automation</h3>
                 <div class="flex flex-wrap gap-4">
                     <!-- Docker -->
-                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
+                    <div class="bg-[#242424] px-5 py-3 rounded flex items-center ">
                         <img alt="Static Badge"
                             src="https://img.shields.io/badge/Docker-242424?style=for-the-badge&logo=docker">
                     </div>
@@ -274,16 +300,17 @@
                     <!-- Openshift -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
                         <img alt="Static Badge"
-                            src="https://img.shields.io/badge/Openshift%204-242424?style=for-the-badge&logo=redhatopenshift">
+                            src="https://img.shields.io/badge/Openshift%204-242424?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB2aWV3Qm94PSIwIC05LjUgMjU2IDI1NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgZmlsbD0iIzAwMDAwMCI+PGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiPjwvZz48ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvZz48ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDxnPiA8cGF0aCBkPSJNNzQuODM5MjY4MSwxMDYuODkyOTI2IEwzMy45NzE0MTQ3LDEyMS43NjMzMTQgQzM0LjQ5NTgzMzYsMTI4LjMxNTM3NiAzNS42MjMzOTc4LDEzNC43ODc0NDIgMzcuMjExODkyLDE0MS4xMjg3MjEgTDc2LjAyOTA1MTYsMTI2Ljk5MjI2NSBDNzQuNzg0NjY3NywxMjAuNDQwMjAzIDc0LjM0MDI0NDgsMTEzLjY3MjI3OCA3NC44NDgxNTY2LDEwNi44OTE2NTYiIGZpbGw9IiNEQTI0MzAiPiA8L3BhdGg+IDxwYXRoIGQ9Ik0yNTUuNDQ0MDcxLDYxLjcwMjM2MTggQzI1Mi41OTM0MTYsNTUuODIzMjgyNyAyNDkuMjk3MDY4LDUwLjE0MTAxOTQgMjQ1LjQ3NzU3Miw0NC43ODYzNTkxIEwyMDQuNjIxMTQ2LDU5LjY1Njc0NyBDMjA5LjM3NjQ3LDY0LjUyMDAwMjUgMjEzLjM2MzU3OCw2OS45ODY0MDMzIDIxNi42MjgxODEsNzUuODMyNDY4MSBMMjU1LjQ0NTM0MSw2MS42OTk4MjIyIEwyNTUuNDQ0MDcxLDYxLjcwMjM2MTggTDI1NS40NDQwNzEsNjEuNzAyMzYxOCBaIiBmaWxsPSIjREEyNDMwIj4gPC9wYXRoPiA8Zz4gPHBhdGggZD0iTTE4Mi45NTAyNzUsNjEuNDYxNDQxMyBDMTc3LjgwOTY5NSw1Ny4wMDA1NzkyIDE3Mi4wMDQwMzIsNTMuMTUxMDY2MiAxNjUuNTQxNjUsNTAuMTM2NTc1MiBMMTY1LjUzOTExLDUwLjEzNjU3NTIgQzEyNy41OTgwOTksMzIuNDQ4NTQ2NiA4Mi4zMzA0NTk0LDQ4LjkwNDg4OSA2NC42NDI0MzA4LDg2Ljg1ODU5ODUgQzYzLjY0NTQ5MDEsODkuMDAwMTUxMyA2Mi43NjI1NjExLDkxLjE2NDcxNTUgNjEuOTg4NjAwNiw5My4zNDYyMTUxIEM1OS43ODA5MTY0LDk5Ljc2OTI2NTcgNTguNDkxMjkzNiwxMDYuMzM2MDkgNTcuOTk3ODUzMywxMTIuODkyNDEgTDU3Ljg1MzkyOTUsMTEyLjk0NTYgQzU3Ljg1MDE2MzMsMTEyLjk5MzYzNSA1Ny44NDY0NDA2LDExMy4wNDE2NyA1Ny44NDI3NjE2LDExMy4wODk3MDQgTDMzLjI0NzIyMTUsMTIyLjAzOTUxMiBMMTcuNDIwNzM2NiwxMjcuODg4NTEzIEMxNy40MTg0NjIsMTI3Ljg1OTMxNCAxNy40MTYxOTgsMTI3LjgzMDExNSAxNy40MTM5NDQ3LDEyNy44MDA5MTQgTDE2Ljk3OTk4NzMsMTI3Ljk1ODgyMiBDMTUuNDQzNTU0LDEwOC41MjM1NzcgMTguNzE5NTg1MSw4OC40NDcwOTI3IDI3LjUzMzEyNDcsNjkuNTQ3Njk0NCBDMjguNjg3MDEzNSw2Ny4wNzI0ODQ2IDI5LjkxNzE5MjQsNjQuNjU2NjIwNSAzMS4yMTk1Njg2LDYyLjMwMTU5MjEgQzYwLjI3MzgxNjEsOC4xODU2NjE2IDEyNi4zODM1NjgsLTE0LjQzNDE2MTMgMTgyLjEzODMxNywxMS45NzI1MzQyIEMxOTMuNjc4MDM3LDE3LjQ0MDQ4MjQgMjAzLjkxMTA0NywyNC42MDk0MzU3IDIxMi42OTQ1MzYsMzMuMDQ1NTExIEMyMTguNjA0MDEsMzguNTEyMTIxNCAyMjMuODc4NDA1LDQ0LjUzMzQ5NjkgMjI4LjQ3NTczMSw1MC45ODYwNTc2IEwxODcuNjE2NzY3LDY1Ljg1ODk4NSBDMTg3LjQwNjUwOSw2NS42NDQwODI3IDE4Ny4xOTQ5MjUsNjUuNDMwMjUzNSAxODYuOTgyMDE4LDY1LjIxNzUxNzIgTDE4Ni44Njg5MDYsNjUuMjU5MzM0OCBDMTg1LjYxMDQyNiw2My45NTIzNjAyIDE4NC4zMDQxNiw2Mi42ODQ5NzcxIDE4Mi45NTAyNzUsNjEuNDYxNDQxMyBaIiBmaWxsPSIjREEyNDMwIj4gPC9wYXRoPiA8cGF0aCBkPSJNMTkuMjYxMzIxNywxOTMuODk2NDc3IEwxOS4xOTY4OTUyLDE5My45MTk5MyBDMTAuNjk1NzIxNCwxODEuOTQ5NzE5IDQuNTA4MDg1OTEsMTY4LjUwMTQ4NSAwLjkzODczNTcxNCwxNTQuMzQ3MjUzIEwzOS43NjM1MTM5LDE0MC4yMDY5ODggTDM5Ljc2NjA1MzUsMTQwLjIwOTUyOCBDMzkuNzc0MDUxNCwxNDAuMjUxMzA2IDM5Ljc4MjA4MzgsMTQwLjI5MzA3NyAzOS43OTAxNTA4LDE0MC4zMzQ4NDEgTDQwLjA0MjI2LDE0MC4yNDE2MDEgTDQwLjA0ODEwMjYsMTQwLjI1NzE4MSBDNDIuMDQyMjY2MiwxNTAuODE3ODIyIDQ2LjE5MzM2MzYsMTYwLjg5MjM5NCA1Mi4yNDU4MjQ1LDE2OS43NTA2OTUgQzU0LjU1MzUzMzMsMTczLjA0MzkxMiA1Ny4xMzIxNDEzLDE3Ni4xNjU2NTMgNTkuOTY4MjQ1NSwxNzkuMDc3NDc4IEw1OS44MTQwNTM1LDE3OS4xMzM2MTEgQzU5LjkxMTY2NjMsMTc5LjIzNjU5OCA2MC4wMDk1OTAxLDE3OS4zMzkzMyA2MC4xMDc4MjQzLDE3OS40NDE4MDMgTDE5LjYyMDI5NDgsMTk0LjQxMjU4NyBDMTkuNTAwMTcxLDE5NC4yNDA4NTEgMTkuMzgwNTEzLDE5NC4wNjg4MTMgMTkuMjYxMzIxNywxOTMuODk2NDc3IFoiIGZpbGw9IiNFODI0MjkiPiA8L3BhdGg+IDxwYXRoIGQ9Ik0xNzMuNDY1NDg2LDE4My40NDY4NTggQzE1Mi40MTM5MzQsMTk2LjQ2NDI5IDEyNS40MTIzODcsMTk4Ljk3OTI1MiAxMDEuMzUxODgzLDE4Ny43NTg5NjEgQzkyLjg0MDU1MTMsMTgzLjc4OTYzIDg1LjQyNTAzOSwxNzguNDIxMDAyIDc5LjIzMzU5NDEsMTcyLjA2NDQ4NiBMMzguNDYyMjQzOSwxODYuOTA4MjA4IEMzOC41NjU5OTA4LDE4Ny4wNTQxMTcgMzguNjcwMDg0NSwxODcuMTk5ODA1IDM4Ljc3NDUyNDUsMTg3LjM0NTI3MiBMMzguNzU0MzQ4LDE4Ny4zNTI3MzMgQzQ5Ljk2NDQyMTUsMjAzLjM2OTM1IDY1LjI1NjU1MTIsMjE2Ljc1Njc4IDg0LjAyMTE1NDksMjI1LjY1MTIyMiBDMTI0LjQ5MDQ1NSwyNDQuODE0MzgyIDE3MC40MDc5MjcsMjM4LjE1MjI5OCAyMDMuNjU1NDc2LDIxMi4zNjY4IEMyMTguNTQzNDg2LDIwMS4yMTUyOTQgMjMwLjk3MTk5NSwxODYuMzUxMzYxIDIzOS4zNjgwMjcsMTY4LjM0Nzg0MSBDMjQ4LjE4NjY0NiwxNDkuNDUyMjUyIDI1MS40NDM2MzEsMTI5LjM4MzM4NyAyNDkuODgzMDcyLDEwOS45NjMzNzkgTDI0OC43NDc0NjQsMTEwLjM3NjU4NSBDMjQ4LjczMjExLDExMC4xNjg1NzQgMjQ4LjcxNjIxNywxMDkuOTYwNjM2IDI0OC42OTk3ODUsMTA5Ljc1Mjc3MSBMMjA4LjIxMDMwOCwxMjQuNzA5OTIzIEwyMDguMjEyMjU1LDEyNC43MTM4MTggQzIwNy41Njc2MTgsMTMzLjYzNzQ3MyAyMDUuMzQ5MzYzLDE0Mi41OTAzNDEgMjAxLjQwNTU4MywxNTEuMTczMTc2IEMxOTUuMDkxMTk5LDE2NC45MjY1MzkgMTg1LjI0MjAxMiwxNzUuODgyMTM1IDE3My40NjU0ODYsMTgzLjQ0Njg1OCBaIiBmaWxsPSIjREEyNDMwIj4gPC9wYXRoPiA8cGF0aCBkPSJNMjE4LjU1MjM3OSw3NS4xMjkxOTEyIEwyMTkuMTU5NDg2LDc0LjkwODE5NTcgTDIxOS4xNTk0ODYsNzQuOTA2OTI1OSBDMjI1LjU0NjQ3Nyw4OC4wNDkxNDM4IDIyOS40NDQ3MDEsMTAyLjMzNDE2MyAyMzAuNjEyODk3LDExNi45NjIwMjMgTDE4OS44NDAyNzcsMTMxLjc5NTU4NyBDMTg5Ljg0NzgxNiwxMzEuNjk0NDI5IDE4OS44NTUxNDksMTMxLjU5MzI3NCAxODkuODYyMjc0LDEzMS40OTIxMjMgTDE4OS4wOTEyNTEsMTMxLjc3Njk4MyBDMTkwLjIwMTM1MiwxMTYuNjg5MzQ1IDE4Ni44MTY1MTcsMTAxLjY4MzUwNSAxNzkuNjU3MzM5LDg4LjY1NDQyMzQgTDIxOC4yMDUxMTMsNzQuNDA0MjMwOCBMMjE4LjIwNzA2LDc0LjQwMDMzNTggQzIxOC4zMjI5OSw3NC42NDI4OTcyIDIxOC40MzgwOTcsNzQuODg1ODUwNyAyMTguNTUyMzc5LDc1LjEyOTE5MTIgWiIgZmlsbD0iI0U4MjQyOSI+IDwvcGF0aD4gPC9nPiA8cGF0aCBkPSJNNzQuODkwNjcwNywxMDYuNjU0MDMxIEwzNC4zMDk2NTksMTIxLjY1MDEzMyBDMzQuODI5NjUzNywxMjguMjYwMTA0IDM1Ljk0OTQ5MjUsMTM0Ljc4NjMzMSAzNy41Mjg5NTIyLDE0MS4xODIwNzEgTDc2LjA3NDc3ODYsMTI2LjkyNDA4OCBDNzQuODI4MzQ5MywxMjAuMzAyNDMyIDc0LjM4MDQxMzcsMTEzLjQ4NjAyMiA3NC45MDYyNTExLDEwNi42NTAxMzYiIGZpbGw9IiNDMjIwMzUiPiA8L3BhdGg+IDxwYXRoIGQ9Ik0yNTQuMjI2OTIsNjEuMDgyODIyOCBDMjUxLjM5NzEzNiw1NS4xNTQ0OTM0IDI0OC4xMjEzNjQsNDkuNDI0ODEzNyAyNDQuMzI5NDkyLDQ0LjAyNDI2OTEgTDIwMy43NTgyMTgsNTkuMDIwMzcxOCBDMjA4LjQ3OTA2OSw2My45MjYyMzk3IDIxMi40Mzg0Myw2OS40Mzc3OTQyIDIxNS42NzkxNDYsNzUuMzM0OTYzIEwyNTQuMjIxMDc3LDYxLjA3ODkyNzcgTDI1NC4yMjY5Miw2MS4wODI4MjI4IEwyNTQuMjI2OTIsNjEuMDgyODIyOCBaIiBmaWxsPSIjQzIyMDM1Ij4gPC9wYXRoPiA8cGF0aCBkPSJNMzQuMzA4NDkwNCwxMjEuNjUyNjY1IEw3NC43OTAxNzc0LDEwNi44MjQwNTIgTDc0LjYyNDYzNiwxMTQuOTU3MDAzIEwzNS41Njg1NTI2LDEyOS43MDU3NjcgTDM0LjMwMjY0NzgsMTIxLjY0MjkyOCBMMzQuMzA4NDkwNCwxMjEuNjUyNjY1IEwzNC4zMDg0OTA0LDEyMS42NTI2NjUgWiIgZmlsbD0iI0FDMjIzQiI+IDwvcGF0aD4gPHBhdGggZD0iTTIwMy43NjYwMDksNTguODk3NDgxNyBMMjQ0Ljg3ODcsNDQuNzg5NDU5OSBMMjQ5LjE1MTYxNSw1MS4yMzc3ODQxIEwyMDkuMjA1NTA0LDY1LjM1OTQzODYgTDIwMy43NzE4NTEsNTguODkzNTg2NiBMMjAzLjc2NjAwOSw1OC44OTc0ODE3IEwyMDMuNzY2MDA5LDU4Ljg5NzQ4MTcgWiIgZmlsbD0iI0FDMjIzQiI+IDwvcGF0aD4gPHBhdGggZD0iTTM4Ljc2Mzg5MDksMTg3LjIwMTAyIEw3OS4yOTQyNjY1LDE3Mi40NTIyNTYgTDkxLjU1MjExOTgsMTg0LjAxNjc4MiBMNDkuMDQ4ODgwMywxOTkuOTczMDI1IEwzOC43NjU4Mzg1LDE4Ny4xOTcxMjUgTDM4Ljc2Mzg5MDksMTg3LjIwMTAyIEwzOC43NjM4OTA5LDE4Ny4yMDEwMiBaIiBmaWxsPSIjQjkyMTM1Ij4gPC9wYXRoPiA8cGF0aCBkPSJNMjQ5LjM4MDY0NywxMDkuODYxNjM5IEwyMDguMjE1MzcxLDEyNC43MDU4MzMgTDIwNS4xODMwNDMsMTQxLjE4NDAxOCBMMjQ5LjA3NDg4MiwxMjUuNTQxMzMgTDI0OS4zODY0OSwxMDkuODYzNTg3IEwyNDkuMzgwNjQ3LDEwOS44NjE2MzkgTDI0OS4zODA2NDcsMTA5Ljg2MTYzOSBaIiBmaWxsPSIjQjkyMTM1Ij4gPC9wYXRoPiA8L2c+IDwvZz48L3N2Zz4=">
                     </div>
                     <!-- Helm -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
                         <img alt="Static Badge"
-                            src="https://img.shields.io/badge/Helm-242424?style=for-the-badge&logo=helm">
+                            src="https://img.shields.io/badge/Helm-242424?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+PGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiPjwvZz48ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvZz48ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+PHRpdGxlPmZpbGVfdHlwZV9oZWxtPC90aXRsZT48cGF0aCBkPSJNMTUuODEzLDIuMDczYS40MjEuNDIxLDAsMCwxLC40NTEtLjAxNSwxLjIwNiwxLjIwNiwwLDAsMSwuNDMyLjU1Myw0LjM4MSw0LjM4MSwwLDAsMSwuMzI1LDEuMzQ5LDYuMjY3LDYuMjY3LDAsMCwxLS4xNjksMi4yLDEwLjAyNywxMC4wMjcsMCwwLDEsNC41NTMsMS42LDUuOSw1LjksMCwwLDEsLjk0NS0xLjcsNC41ODQsNC41ODQsMCwwLDEsMS4yODMtMS4xNzcuOTM1LjkzNSwwLDAsMSwuNzQzLS4xNC41NzUuNTc1LDAsMCwxLC4yODkuNTczLDMuMjI4LDMuMjI4LDAsMCwxLS4zNjgsMS4zLDYuMTQ5LDYuMTQ5LDAsMCwxLTEuNjYzLDIuMSwxMC4xMzYsMTAuMTM2LDAsMCwxLDEuODI1LDIuMjA4bC0xLjM2OS44MzJhOC40MjEsOC40MjEsMCwwLDAtMTQuMjY5LS4ybC0xLjM0NS0uODY5QTEwLjE1NiwxMC4xNTYsMCwwLDEsOS4zMDgsOC41NzgsNi4zMzMsNi4zMzMsMCwwLDEsNy44NzYsNi43MzFhMy40ODYsMy40ODYsMCwwLDEtLjQyNy0xLjM4LjYzOS42MzksMCwwLDEsLjIzMi0uNTg3LjczMS43MzEsMCwwLDEsLjY1LjAzOCwzLjY4OCwzLjY4OCwwLDAsMSwxLjEyMy44ODUsNi4zMyw2LjMzLDAsMCwxLDEuMiwxLjksMTAuMDM1LDEwLjAzNSwwLDAsMSw0LjU5MS0xLjQ2LDYuMzE4LDYuMzE4LDAsMCwxLS4xNjEtMi4xNjEsNC40NTksNC40NTksMCwwLDEsLjMxMy0xLjMyOUExLjI4NywxLjI4NywwLDAsMSwxNS44MTMsMi4wNzNaIiBzdHlsZT0iZmlsbDojMjc3YTlmIj48L3BhdGg+PHBhdGggZD0iTTIuNTQ5LDEyLjZINC40NzdxMCwxLjM1NywwLDIuNzE0SDYuNjUycTAtMS4zNTYsMC0yLjcxM0g4LjU4MXEwLDMuNjQ0LDAsNy4yODhINi42NTJxMC0xLjQ0NywwLTIuODkySDQuNDc3cTAsMS40NDcsMCwyLjg5M0gyLjU0OVoiIHN0eWxlPSJmaWxsOiMyNzdhOWYiPjwvcGF0aD48cGF0aCBkPSJNMTAuMTUzLDEyLjZoNC43MDl2MS42MTRIMTIuMDgydjEuMTQ0aDIuMzc3cTAsLjgwNywwLDEuNjE0SDEyLjA4MnYxLjNoMi44OTJxMCwuODA3LDAsMS42MTRIMTAuMTUzWiIgc3R5bGU9ImZpbGw6IzI3N2E5ZiI+PC9wYXRoPjxwYXRoIGQ9Ik0xNi40MTYsMTIuNmgxLjkyOHY1LjY3M0gyMS4xcTAsLjgwNywwLDEuNjE0SDE2LjQxNloiIHN0eWxlPSJmaWxsOiMyNzdhOWYiPjwvcGF0aD48cGF0aCBkPSJNMjIuMzY2LDEyLjZoMi4wNjNxLjQ4MiwxLjMwNy45NjMsMi42MTVjLjIxMi41NDQuMzQ5LDEuMTExLjUyNiwxLjY2NmEuMzkyLjM5MiwwLDAsMCwuMDc4LS4xNmMuMTEyLS4zOTEuMjI4LS43ODIuMzUxLTEuMTcxcS41MTktMS40NzUsMS4wNDEtMi45NDloMi4wNjR2Ny4yODhIMjcuN2EzMy4wNTQsMzMuMDU0LDAsMCwxLC4wOC0zLjM1NmMuMDQ0LS40NzUuMTIyLS45NDcuMTYyLTEuNDIzYS42MTcuNjE3LDAsMCwwLS4xMTEuMjI3Yy0uNDQ1LDEuMzMyLS45MzgsMi42NDgtMS40MzYsMy45NjEtLjM0Mi0uMDA3LS42ODQsMC0xLjAyNiwwcS0uNDQyLTEuMTg3LS44ODMtMi4zNzRjLS4xNzItLjUtLjMzOC0xLjAxLS41MDYtMS41MTVhLjc0Ni43NDYsMCwwLDAtLjEzMS0uMjkyLDI1Ljk3LDI1Ljk3LDAsMCwxLC4yNDIsMi43NjFxMCwxLjAwNywwLDIuMDE0SDIyLjM2NloiIHN0eWxlPSJmaWxsOiMyNzdhOWYiPjwvcGF0aD48cGF0aCBkPSJNNy42NjcsMjEuOHEuNjU2LS40NTgsMS4zMTQtLjkxNWE4LjQyMiw4LjQyMiwwLDAsMCwxMy44MzMtLjAxMmwxLjMxNi45MTJhMTAuMjYxLDEwLjI2MSwwLDAsMS0xLjM3OSwxLjYsNi4yNzIsNi4yNzIsMCwwLDEsMS40ODYsMS44OTIsMy40OTEsMy40OTEsMCwwLDEsLjQyNywxLjM3Ny42Mi42MiwwLDAsMS0uMjYuNi44Ny44NywwLDAsMS0uNzQzLS4xMTIsNC40MTIsNC40MTIsMCwwLDEtMS4yNTItMS4xMTcsNi4yNDgsNi4yNDgsMCwwLDEtLjk0OS0xLjYxNkE5Ljk2Nyw5Ljk2NywwLDAsMSwxNi45LDI2LjA0MWE2LjA4Niw2LjA4NiwwLDAsMSwuMTQ0LDEuNSw1LjAxNiw1LjAxNiwwLDAsMS0uMzA4LDEuNzQ4LDEuMzgsMS4zOCwwLDAsMS0uNDQ2LjYzNS40MzEuNDMxLDAsMCwxLS41MDctLjAxNywxLjU3MywxLjU3MywwLDAsMS0uNDY3LS43MzYsNS43NjQsNS43NjQsMCwwLDEtLjI1MS0yLjIxMiw1LjY1OSw1LjY1OSwwLDAsMSwuMTI0LS44OTIsMTAuMDI0LDEwLjAyNCwwLDAsMS00LjYwNi0xLjQ5NCw2LjQ0LDYuNDQsMCwwLDEtMS4zNDgsMS45NjQsMi45NDIsMi45NDIsMCwwLDEtMS4wNTcuNzE2LjUzMS41MzEsMCwwLDEtLjYxNC0uMTI0LDEuMTM5LDEuMTM5LDAsMCwxLS4wNjgtLjg2NEE1LjQ0OSw1LjQ0OSwwLDAsMSw4LjUsMjQuMjgyYTYuMDQ0LDYuMDQ0LDAsMCwxLC42ODgtLjc1OUExMC40MjMsMTAuNDIzLDAsMCwxLDcuNjY3LDIxLjhaIiBzdHlsZT0iZmlsbDojMjc3YTlmIj48L3BhdGg+PC9nPjwvc3ZnPg==">
                     </div>
                     <!-- Git -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
-                        <img alt="Static Badge" src="https://img.shields.io/badge/Git-242424?style=for-the-badge&logo=git">
+                        <img alt="Static Badge"
+                            src="https://img.shields.io/badge/Git-242424?style=for-the-badge&logo=git">
                     </div>
                     <!-- GitHub -->
                     <div class="bg-[#242424] px-5 py-3 rounded flex items-center">
@@ -307,7 +334,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Virtualizarion and OS -->
             <div class="mb-6">
                 <h3 class="text-xl font-semibold mb-6 text-primary">Virtualization and OS</h3>
@@ -329,14 +356,14 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- <div class="mb-6">
                             <h3 class="text-xl font-semibold mb-6 text-primary">Security</h3>
                             <div class="flex flex-wrap gap-4">
                         </div> -->
         </div>
     </section>
-    
+
     <section id="projects" class="py-20 px-6"
         style="background-color: rgba(0, 0, 0, 0.5); background-blend-mode: overlay;">
         <div class="container mx-auto max-w-4xl">
@@ -344,22 +371,26 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
                 <div class="bg-[#1a1a1a] p-6 rounded transition-transform hover:scale-105">
-                    <h3 class="text-xl font-semibold mb-4">High Available AWS EKS cluster with an unmanaged EC2 Autoscaling group</h3>
+                    <h3 class="text-xl font-semibold mb-4">High Available AWS EKS cluster with an unmanaged EC2
+                        Autoscaling group</h3>
                     <p class="text-gray-400 mb-4">Designed and implemented a HA AWS EKS Cluster using Terraform.</p>
                     <div class="flex flex-wrap gap-2 mb-4">
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">AWS</span>
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Terraform</span>
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">HCL</span>
-                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Bash</span>   
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Bash</span>
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Kubernetes</span>
-                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Git</span>          
+                        <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Git</span>
                     </div>
-                    <a href="https://github.com/cralonsobcn/cralonsobcn-tf-eks-project" class="text-primary hover:underline">View on GitHub →</a>
+                    <a href="https://github.com/cralonsobcn/cralonsobcn-tf-eks-project"
+                        class="text-primary hover:underline">View on GitHub →</a>
                 </div>
 
                 <div class="bg-[#1a1a1a] p-6 rounded transition-transform hover:scale-105">
                     <h3 class="text-xl font-semibold mb-4">Home Server & Kubernetes Lab</h3>
-                    <p class="text-gray-400 mb-4">Built a Home Server and K8s lab with 3 appliances: Security, Server, NAS with several services exposed to the internet using Cloudflare Tunnels, Docker and Traefik reverse proxy.</p>
+                    <p class="text-gray-400 mb-4">Built a Home Server and K8s lab with 3 appliances: Security, Server,
+                        NAS with several services exposed to the internet using Cloudflare Tunnels, Docker and Traefik
+                        reverse proxy.</p>
                     <div class="flex flex-wrap gap-2 mb-4">
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Git</span>
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">Bash</span>
@@ -374,54 +405,75 @@
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">kubeadm</span>
                         <span class="bg-[#242424] px-3 py-1 rounded-full text-sm">CRI-O</span>
                     </div>
-                    <a href="https://github.com/cralonsobcn/Server" class="text-primary hover:underline">View on GitHub →</a>
+                    <a href="https://github.com/cralonsobcn/Server" class="text-primary hover:underline">View on GitHub
+                        →</a>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="certifications" class="py-20 px-6 bg-[#1a1a1a]"
         style="background-color: rgba(0, 0, 0, 0.5); background-blend-mode: overlay;">
         <div class="container mx-auto max-w-4xl">
             <h2 class="text-3xl font-bold mb-6">Certifications</h2>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8" style="text-align: center;">
-                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105" style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
-                    <a href="https://www.credly.com/badges/dd7cd606-21a9-45bf-8c2c-26f75933a9aa/public_url" target="_blank" rel="noopener noreferrer">
+                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105"
+                    style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
+                    <a href="https://www.credly.com/badges/dd7cd606-21a9-45bf-8c2c-26f75933a9aa/public_url"
+                        target="_blank" rel="noopener noreferrer">
                         <img width="50%" style="justify-self: center;" src="images/ace_badge.png">
-                        <h3 class="font-semibold mb-2" style="text-align: center;">Google Cloud Associate Cloud Engineer</h3>
+                        <h3 class="font-semibold mb-2" style="text-align: center;">Google Cloud Associate Cloud Engineer
+                        </h3>
                         <p class="text-sm text-gray-400" style="text-align: center;">Issued on July 2024</p>
                     </a>
-                    <a href="https://www.credly.com/badges/dd7cd606-21a9-45bf-8c2c-26f75933a9aa/public_url" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly →</a>
+                    <a href="https://www.credly.com/badges/dd7cd606-21a9-45bf-8c2c-26f75933a9aa/public_url"
+                        class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly
+                        →</a>
                 </div>
 
-                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105" style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
-                    <a href="https://www.credly.com/badges/cc0aef51-40de-4ce7-afad-9b28e7cca114/public_url" target="_blank" rel="noopener noreferrer">
+                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105"
+                    style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
+                    <a href="https://www.credly.com/badges/cc0aef51-40de-4ce7-afad-9b28e7cca114/public_url"
+                        target="_blank" rel="noopener noreferrer">
                         <img width="50%" style="justify-self: center;" src="images/tf_badge.png">
                         <h3 class="font-semibold mb-2" style="text-align: center;">Certified Terraform Associate</h3>
                         <p class="text-sm text-gray-400" style="text-align: center;">Issued on April 2025</p>
                     </a>
-                    <a href="https://www.credly.com/badges/cc0aef51-40de-4ce7-afad-9b28e7cca114/public_url" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly →</a>
+                    <a href="https://www.credly.com/badges/cc0aef51-40de-4ce7-afad-9b28e7cca114/public_url"
+                        class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly
+                        →</a>
                 </div>
 
-                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105" style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
-                    <a href="https://www.credly.com/badges/2707ce3b-3f8f-4ec1-b085-52efe0f8d24c/public_url" target="_blank" rel="noopener noreferrer">
+                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105"
+                    style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
+                    <a href="https://www.credly.com/badges/2707ce3b-3f8f-4ec1-b085-52efe0f8d24c/public_url"
+                        target="_blank" rel="noopener noreferrer">
                         <img width="50%" style="justify-self: center;" src="images/cka_badge.png">
-                        <h3 class="font-semibold mb-2" style="text-align: center;">CKA: Certified Kubernetes Administrator</h3>
+                        <h3 class="font-semibold mb-2" style="text-align: center;">CKA: Certified Kubernetes
+                            Administrator</h3>
                         <p class="text-sm text-gray-400" style="text-align: center;">Issued on November 2024</p>
                     </a>
-                    <a href="https://www.credly.com/badges/2707ce3b-3f8f-4ec1-b085-52efe0f8d24c/public_url" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly →</a>
+                    <a href="https://www.credly.com/badges/2707ce3b-3f8f-4ec1-b085-52efe0f8d24c/public_url"
+                        class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly
+                        →</a>
                 </div>
-                
-                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105" style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
-                    <a href="https://www.credly.com/badges/72d580da-b169-4645-aa08-c05de6f32375/public_url" target="_blank" rel="noopener noreferrer">
+
+                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105"
+                    style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
+                    <a href="https://www.credly.com/badges/72d580da-b169-4645-aa08-c05de6f32375/public_url"
+                        target="_blank" rel="noopener noreferrer">
                         <img width="50%" style="justify-self: center;" src="images/ckad_badge.png">
                         <h3 class="font-semibold mb-2">CKAD: Certified Kubernetes Application Developer</h3>
                         <p class="text-sm text-gray-400">Issued on June 2025</p>
                     </a>
-                    <a href="https://www.credly.com/badges/72d580da-b169-4645-aa08-c05de6f32375/public_url" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly →</a>
+                    <a href="https://www.credly.com/badges/72d580da-b169-4645-aa08-c05de6f32375/public_url"
+                        class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly
+                        →</a>
                 </div>
 
-                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105" style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
+                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105"
+                    style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
                     <a href="" target="_blank" rel="noopener noreferrer">
                         <img width="50%" style="justify-self: center;" src="images/cks_badge.png">
                         <h3 class="font-semibold mb-2">CKS: Certified Kubernetes Security Specialist</h3>
@@ -430,7 +482,8 @@
                     <!-- <a href="" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly →</a> -->
                 </div>
 
-                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105" style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
+                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105"
+                    style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
                     <a href="" target="_blank" rel="noopener noreferrer">
                         <img width="50%" style="justify-self: center;" src="images/prometheus_badge.png">
                         <h3 class="font-semibold mb-2">Prometheus Certified Associate</h3>
@@ -439,7 +492,8 @@
                     <!-- <a href="" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">View on Credly →</a> -->
                 </div>
 
-                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105" style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
+                <div class="bg-[#242424] p-6 rounded transition-transform hover:scale-105"
+                    style="background-image: url(https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/ebe6b674deca163b28423e3b925bd36b0f0f357b.png); background-size:120% 120%; background-position: 50% 48%;">
                     <a href="" target="_blank" rel="noopener noreferrer">
                         <img width="50%" style="justify-self: center;" src="images/github_actions_badge.png">
                         <h3 class="font-semibold mb-2">Github Actions</h3>
@@ -514,32 +568,38 @@
             </div>
         </div>
     </section>
+
     <section id="contact" class="py-20 px-6"
         style="background-color: rgba(0, 0, 0, 0.5); background-blend-mode: overlay;">
         <div class="container mx-auto max-w-4xl text-center">
             <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
             <div class="flex justify-center space-x-8 mb-6">
                 <a href="https://www.linkedin.com/in/cristian-a-811a2b148/"
-                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors" target="_blank" rel="noopener noreferrer">
+                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors"
+                    target="_blank" rel="noopener noreferrer">
                     <i class="ri-linkedin-fill text-2xl"></i>
                 </a>
                 <a href="mailto:cralonsoh8@gmail.com"
-                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors" target="_blank" rel="noopener noreferrer">
+                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors"
+                    target="_blank" rel="noopener noreferrer">
                     <i class="ri-mail-fill text-2xl"></i>
                 </a>
                 <a href="https://github.com/cralonsobcn"
-                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors" target="_blank" rel="noopener noreferrer">
-                <i class="ri-github-fill text-2xl"></i>
-            </a>
+                    class="flex items-center justify-center w-16 h-16 bg-[#1a1a1a] rounded-full hover:bg-[#242424] transition-colors"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="ri-github-fill text-2xl"></i>
+                </a>
             </div>
             <p class="text-gray-400">Feel free to reach out for job opportunities or just a friendly chat!</p>
         </div>
     </section>
+
     <footer class="bg-[#1a1a1a] py-8 px-6">
         <div class="container mx-auto max-w-4xl text-center text-gray-400">
             <p>© 2025 Cristian Alonso. All rights reserved.</p>
         </div>
     </footer>
+
     <script>
         const texts = [
             "> Certified Google Cloud: Associate Cloud Engineer",
@@ -600,6 +660,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>
